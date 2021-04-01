@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Ad Skipper",
+    "version": "1.0",
+    "description": "Chrome Extension to skip YouTube ads.",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background-wrapper.js"
+    }
+
+}
